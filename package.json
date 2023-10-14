@@ -1,8 +1,14 @@
 {
   "name": "papago-translator",
-  "displayName": "papago-translator",
+  "displayName": "파파고(Papago) 번역기",
   "description": "파파고 번역 API로 한글->영어로 번역해줍니다.",
-  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/jung-jin-lee/vscode-extension-papago-translator"
+  },
+  "license": "MIT",
+  "publisher": "JungjinLee",
+  "pricing": "Free",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -41,6 +47,7 @@
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
     "package:prod": "vsce package",
+    "publish:prod": "npm run package:prod && vsce publish",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
