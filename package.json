@@ -8,7 +8,7 @@
   "license": "MIT",
   "publisher": "JungjinLee",
   "pricing": "Free",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -25,11 +25,11 @@
       },
       {
         "command": "papago.client-id-change",
-        "title": "Papago: 네이버 Client Id 변경"
+        "title": "Papago: 네이버 Client Id 등록/변경"
       },
       {
         "command": "papago.client-secret-change",
-        "title": "Papago: 네이버 Client Secret 변경"
+        "title": "Papago: 네이버 Client Secret 등록/변경"
       },
       {
         "command": "papago.client-id-get",
